@@ -1,0 +1,99 @@
+<!-- Add this to index.html -->
+<nav>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="events.html">Events</a></li>
+        <li><a href="signup.html">Sign Up</a></li>
+    </ul>
+</nav>
+<section id="members">
+    <h2>Group Members</h2>
+    <div class="member">
+        <img src="member1.jpg" alt="Member 1">
+        <h3>Member 1</h3>
+        <p>Short bio about Member 1.</p>
+    </div>
+    <div class="member">
+        <img src="member2.jpg" alt="Member 2">
+        <h3>Member 2</h3>
+        <p>Short bio about Member 2.</p>
+    </div>
+    <!-- Add more members as needed -->
+</section>
+css
+Copy code
+/* Add this to styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+#welcome {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#members {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#members h2 {
+    text-align: center;
+}
+
+.member {
+    background: #f4f4f4;
+    border: 1px solid #ddd;
+    margin: 10px auto;
+    padding: 10px;
+    width: 30%;
+    text-align: center;
+    display: inline-block;
+}
+
+.member img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: relative; /* Changed from fixed */
+    width: 100%;
+    margin-top: 20px;
+    font-size: 0.8em; /* Reduced font size */
+}
