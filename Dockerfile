@@ -35,7 +35,7 @@ EXPOSE 8080
 WORKDIR /usr/local/tomcat
 
 # Copy the contents of the webapps directory into the webapps directory of Tomcat
- COPY /* ./webapps/
+COPY /HTML/ /usr/local/tomcat/webapps/ROOT/
 
 # Start Tomcat
 CMD ["catalina.sh", "run"]
